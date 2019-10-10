@@ -1,1 +1,231 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 62.5%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 85%;
+  margin: auto;
+}
+p {
+  line-height: 120%;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+nav div {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 1.5em 0;
+}
+@media (max-width: 500px) {
+  nav {
+    justify-content: space-between;
+  }
+  nav div {
+    width: 100%;
+  }
+}
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #E9ECEF;
+  padding: 2em;
+}
+header img {
+  width: 40%;
+}
+header h1 {
+  font-size: 2em;
+  padding-bottom: 0.5em;
+}
+header .top-div {
+  padding: 1em 0;
+  border-bottom: 1px solid lightgray;
+}
+header .bottom-div {
+  padding: 1em 0;
+}
+header button {
+  background-color: gray;
+  color: white;
+  margin: 2em 0;
+  padding: 0.6em;
+  font-size: 1em;
+  border-radius: 4px;
+}
+.mid-ct {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em 0;
+}
+.mid-ct div {
+  width: 48%;
+}
+.mid-ct h2 {
+  font-size: 1.5em;
+}
+.mid-ct h3 {
+  font-size: 1.3em;
+}
+.mid-ct-right p {
+  border: 1px solid lightgray;
+  padding: 0.8em;
+}
+.work-hi h3 {
+  font-size: 1.3em;
+}
+.work-hi table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.work-hi td,
+.work-hi th {
+  text-align: left;
+  padding: 8px;
+}
+.work-hi tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+footer {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 1.3em;
+}
